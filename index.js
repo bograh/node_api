@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {
 
   if (req.method === "GET" && req.url === "/health") {
     return sendJson(res, 200, {
-      status: "ok",
+      status: "ok!",
     });
   }
 
