@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
   }
 
   return sendJson(res, 404, {
-    error: "Not Found",
+    error: "Not Found!",
   });
 });
 
